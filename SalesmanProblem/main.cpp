@@ -74,10 +74,10 @@ void saveData(	const std::vector<int>& path_old, const std::vector<int>& path_ne
 int main()
 {
 
-	constexpr int MAX_IT = 1000;
-	constexpr int OUTSIDE_LOOP_IT = 100;
-	constexpr int TEMPERATURE_LOOP = 34;
-	constexpr float cooling_parameter = 2.5f;
+	constexpr int MAX_IT = 2000;
+	constexpr int OUTSIDE_LOOP_IT = 10;
+	constexpr int TEMPERATURE_LOOP = 35;
+	constexpr float cooling_parameter = 2.4f;
 
 
 	srand(time(NULL));
